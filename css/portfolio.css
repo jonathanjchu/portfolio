@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #060606;
+    color: #fff;
+    font: 12pt 'segoe ui', arial, sans-serif;
+    overflow-x: hidden;
+}
+
+a:link, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #AAA;
+}
+
+nav {
+    background-color: #1a1a1a;
+    height: 5vh;
+    width: 100vw;
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 6px;
+    text-align: right;
+}
+
+.nav-items {
+    font: 12pt Montserrat, arial, sans-serif;
+    margin: 1vh 2vw;
+    display: inline-block;
+}
+
+.nav-items a {
+    margin: 0 2vw;
+}
+
+.page {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+#home {
+    background: url('../images/backgrounds/muriwai.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 22vh 0;
+}
+
+#projects {
+    background: url('../images/backgrounds/gardens_by_the_bay.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 12vh 0;
+}
+
+#contact {
+    background: url('../images/backgrounds/vinicunca.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 22vh 0;
+}
+
+.block, .jumbotron {
+    background-color: rgba(0, 0, 0, .8);
+    margin: 1vh auto;
+    padding: 1vh 1vw;
+}
+
+.block {
+    min-height: 27vh;
+    width: 38vw;
+}
+
+.jumbotron {
+    min-height: 45vh;
+    width: 100%;
+    text-align: center;
+}
+
+.project {
+    display: inline-block;
+    width: 20vw;
+    height: 25vh;
+    padding: 2vh 2vw;
+    margin: 2vh 2vw;
+    background-color: rgba(0, 0, 0, .5);
+    vertical-align: top;
+}
+
+h1 {
+    font: 32pt Montserrat, arial, sans-serif;
+}
+
+h3 {
+    font: 16pt Montserrat, arial, sans-serif;
+}
+
+p {
+    font: 11pt verdana, arial, sans-serif;
+    margin: 1vh 0;
+    /* text-align: left; */
+}
+
+.icons img {
+    display: inline-block;
+    height: 32px;
+
+}
+
+.project h3 a img {
+    display: block;
+    height: 9vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+img {
+    height: 30px;
+}
+
+.top_link {
+    position: fixed;
+    bottom: 1vh;
+    right: 1vw;
+}
