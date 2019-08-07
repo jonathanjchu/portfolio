@@ -57,13 +57,13 @@ nav {
 }
 
 #projects {
-    background: url('../images/backgrounds/gardens_by_the_bay.jpg') no-repeat center center;
+    background: url('../images/backgrounds/vinicunca.jpg') no-repeat center center;
     background-size: cover;
     padding: 12vh 0;
 }
 
 #contact {
-    background: url('../images/backgrounds/vinicunca.jpg') no-repeat center center;
+    background: url('../images/backgrounds/gardens_by_the_bay.jpg') no-repeat center center;
     background-size: cover;
     padding: 22vh 0;
 }
@@ -80,7 +80,7 @@ nav {
 }
 
 .jumbotron {
-    min-height: 45vh;
+    min-height: 55vh;
     width: 100%;
     text-align: center;
 }
@@ -88,7 +88,7 @@ nav {
 .project {
     display: inline-block;
     width: 20vw;
-    height: 25vh;
+    height: 30vh;
     padding: 2vh 2vw;
     margin: 2vh 2vw;
     background-color: rgba(0, 0, 0, .5);
@@ -106,7 +106,6 @@ h3 {
 p {
     font: 11pt verdana, arial, sans-serif;
     margin: 1vh 0;
-    /* text-align: left; */
 }
 
 .icons img {
